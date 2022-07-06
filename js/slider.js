@@ -1,0 +1,37 @@
+$(document).ready(function(){
+    $('.slider__body').slick({
+        arrows:true,
+        dots:true,
+        adaptiveHeight:false,
+        slidesToShow:3,
+        slidesToScroll:1,
+        speed:1000,
+        easing:'linear',
+        infinite:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+        pauseOnFocus:true,
+        pauseOnDotsHover:true,
+        pauseOnHover:true,
+        draggable:true,
+        swipe:true,
+        touchThreshold:10,
+        touchMove:true,
+        waitForAnimate:true,
+        centerMode:false,
+        variableWidth:false,
+        responsive:[
+            {
+                breakpoint:990,
+                settings: {
+                    slidesToShow:2.5,
+                          }
+            },{
+                breakpoint:768,
+                settings: {
+                    slidesToShow:1.5,
+                          }
+            },
+        ]
+    });
+});

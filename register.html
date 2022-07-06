@@ -1,0 +1,148 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+    <head>
+        <!-- Заголовок страницы в браузере -->
+        <title>Вход</title>
+        <!-- Подключаем CSS -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/animate.css"> <!--файл с анимацией-->
+        <!-- Кодировка страницы -->
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+       <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>-->
+
+    </head>
+    <!-- Отображаемое тело страницы -->
+<body class="body">
+
+<div class="wrapper">
+
+     <header class="header__verif">
+           <div class="container">
+               <div class="header__body">
+
+                  <a href="index.html" class="header__logo">
+                    <img src="img/logo.svg" alt="">
+                  </a>
+
+              </div>
+           </div>
+      </header>
+
+     <div class="main__input">
+
+         <div class="verification">
+             <div class="verification__body">
+
+                 <div class="httml">
+                 <img class="lock__img" src="img/lock.svg" alt=""> URL verification: <span>https://</span>accounts.com
+                 </div>
+
+                 <div class="enter">
+                     <div class="enter__item">
+
+                         <div class="container">
+                             <div class="enter__title">Добро пожаловать на Binance!</div>
+                             <form action="#popup" class="enter__body">
+                                 <p class="email__title">Электронная почта</p>
+                                 <input required class="email__enter" type="email">
+
+                                 <p class="password__title">Пароль</p>
+                                 <input required class="password__enter" type="password">
+
+                                 <button class="enter__btn">Зарегистрироваться</button>
+                                 <a class="exit" href="index.html">Назад</a>
+                             </form>
+                         </div>
+
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+
+     </div>
+
+     <div class="footer__verif">
+         <div class="footter__text">© 2017 - 2022 Binance.com. All rights reserved</div>
+         <div class="footter__text">Настройки cookie</div>
+     </div>
+
+     <div id="popup" class="popup">
+        <a href="#header" class="poup__area"></a>
+         <div class="popup__body">
+             <div class="popup__content">
+                 <a href="#" class="popup__close">&#10006</a>
+                 <div class="popup__title">Код с подтверждением отправлен вам на почту</div>
+                 <form class="popup__form">
+                     <input required class="popup__cod" type="text">
+                     <a href="#errors"   class="popup__cheked">Готово</a>
+                     <div id="errors" class="error">
+                         <p>Код не верный</p>
+                         <img src="img/attention-svgrepo-com.svg" alt="">
+                     </div>
+                 </form>
+
+             </div>
+         </div>
+     </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Подключаем jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!--Подключаем слайдер Slick-->
+<script src="js/slick.min.js"></script>
+
+<!--Файл скриптов-->
+<script src="https://kit.fontawesome.com/6b8bcf989f.js" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="js/slider.js"></script>
+<script src="js/burber.js"></script>
+<script src="js/spoiler.js"></script>
+<script src="js/scriptt.js"></script>
+<script src="js/timer1.js"></script>
+<script src="js/timer2.js"></script>
+<script src="js/timer3.js"></script>
+<script src="js/popUp.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
